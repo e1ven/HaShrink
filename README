@@ -1,0 +1,32 @@
+HaShrink is a fun and innovative new way of distributing files using very, very small sizes.
+
+WARNING- It may take a while to reproduce the file after transmission.
+You may want to get some tea while you wait. A lot of tea.
+
+Using this unoptimized code, an cc2.8xlarge EC2 instance can handle 25 permutations per second.
+This means that recreating the file will take   2^((filesize in bits))/25 seconds per file.
+For instance, this small README file will take over 1 centillion days.
+Reproducing the include 1 second sinewave will take 9.89 x 10^104544 days.
+
+Unfortunately, there may be some difficulty in retrieving files created after 10^100 years, as we may reach the heat death of the universe.
+
+
+The code works by creating every possible file of a given size.
+It checks each of them, for SHA collisions with the original file.
+
+If the SHA is a match (as filesize/hashsize of them will be) it then uses additional metadata that we have. 
+We know it's supposed to be a valid MP3 file.
+
+This allows to further narrow down the candidates to files that both
+a) Have the same SHA
+and b) are Valid MP3s
+
+This could be further expanded by a third pass using http://echoprint.me/
+That would further cull the number of candidates to those which were acoustically similar.
+
+At this point, the pool of candidates is going to be rather small.
+If necessary, we can review the MP3s, and find the one which sounds correct.
+
+Alternatively, before hand, we may be able to find the one which is a bit-for-bit copy, specify by filename which of these candidates is correct.
+People reproducing the file then know to delete copies with IDs < that file.
+

@@ -1,0 +1,6 @@
+<html>
+Back when this was actually hooked up, this page would accept an upload, and calculate how long it would take to finish.<br>
+But really, running a $20/month Linode for that got a little silly ;)<br>
+You can get a similar calculation by going <a href="http://www.wolframalpha.com/input/?i=2^%28200+bytes+in+bits%29+seconds+in+centuries">to Wolfram Alpha</a>.<br>
+<br>
+</html>

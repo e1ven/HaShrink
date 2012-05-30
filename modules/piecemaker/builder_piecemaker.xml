@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+<Contents>
+<Image Source="http://themes.webinpixels.com/builder/wp-content/uploads/2012/04/home-slider.jpg" Title="">
+<Hyperlink URL="http://themes.webinpixels.com/builder/shop/product-category/tshirts/" Target="_self" />
+</Image>
+<Image Source="http://themes.webinpixels.com/builder/wp-content/uploads/2012/04/home-slider-three.jpg" Title="">
+<Text><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante, malesuada id, tempor eu, gravida id, odio. Maecenas suscipit, risus et eleifend imperdiet, nisi orci ullamcorper massa, et adipiscing orci velit quis magna.</p>
+</Text>
+</Image>
+<Image Source="http://themes.webinpixels.com/builder/wp-content/uploads/2012/04/home-slider-two.jpg" Title="">
+</Image>
+</Contents>
+<Settings ImageWidth="940" ImageHeight="400" LoaderColor="0x333333" InnerSideColor="0x222222" SideShadowAlpha="0.8" DropShadowAlpha="0.5" DropShadowDistance="25" DropShadowScale="0.85" DropShadowBlurX="80" DropShadowBlurY="4" MenuDistanceX="20" MenuDistanceY="50" MenuColor1="0x999999" MenuColor2="0x2999e9" MenuColor3="0xFFFFFF" ControlSize="100" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="450" ControlsY="280&#xD;&#xA;" ControlsAlign="center" TooltipHeight="32" TooltipColor="0x222222" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="5" FieldOfView="45"></Settings>
+<Transitions>
+<Transition Pieces="12" Time="1.2" Transition="easeInOutQuad" Delay="0.1" DepthOffset="700" CubeDistance="20"></Transition>
+<Transition Pieces="12" Time="1.2" Transition="easeInOutSine" Delay="0.1" DepthOffset="800" CubeDistance="20"></Transition>
+<Transition Pieces="20" Time="1.2" Transition="easeInOutCubic" Delay="0.1" DepthOffset="600" CubeDistance="20"></Transition>
+</Transitions>
+</Piecemaker>

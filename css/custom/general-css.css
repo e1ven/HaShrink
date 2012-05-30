@@ -1,0 +1,242 @@
+/** ===== general color style ===== */ 
+body{
+	color : #858585;
+}
+#main-inner-site input[type=text], 
+#main-inner-site input[type=password], 
+#main-inner-site input[type=file], 
+#main-inner-site textarea, 
+#main-inner-site select{
+	background-color: #fbfbfb;
+	color: #858585;
+}
+h1,h2,h3,h4,h5,h6{
+	color : #4d4d4d;
+}
+a,
+a>h3{
+	color : #4d4d4d;
+}
+a:hover,
+a>h3:hover{
+	color : #2999e9;
+}
+blockquote,
+.quote_left,
+.quote_right{
+	color : #5e5e5e;
+}
+a.button,
+.sidebarbox a.button,
+input[type="submit"],
+button[type="submit"],
+table.cart td.actions a.checkout-button{
+	background: #2999e9  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAIAAAEcG3N8AAAAeElEQVQYlZWOSw4CMQxDX6PcC0GvCj1dD0ClNGExHVEYPurKebZlhVyqNAtpPeRu8MbpdK2Ath6ANpuEXKqYI91DLIY6u5fOtwoA2j3GZeNAzTmmRy/lUgHdeJeImE34W/kkL5V0KeNd5rknb+3v+Sov7/E7X9x7AIIHgXXDxpfcAAAAAElFTkSuQmCC") scroll left top repeat-x;
+	color: #fcfcfc;
+	border: 1px solid #217aba;
+	-box-shadow: inset 0px 1px 0px #69b8f0, 0 1px 2px rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: inset 0px 1px 0px #69b8f0, 0 1px 2px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: inset 0px 1px 0px #69b8f0, 0 1px 2px rgba(0, 0, 0, 0.08);
+	text-shadow: 0px -1px 0px #217aba;
+}
+a.button:hover,
+.sidebarbox a.button:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover,
+table.cart td.actions a.checkout-button:hover{
+	background: #2999e9  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAIAAAEcG3N8AAAAcklEQVQYlZWOSw4CMQxDn1NL5SoFceDCCXMLFtMRheGjrpxnW1ZoPaNaUYviZHhjXe8JuBYBrp6E1jMcRAmFNTTYPV1uCQAuoXF5HNjBMT16aj0Bb7yLpNmEv5VP8lLRuY93meeevLW/56u8vMfvfHHvAUSYDXHMvp/DAAAAAElFTkSuQmCC") scroll left bottom repeat-x;
+	color: #fcfcfc!important;
+}
+input, select, textarea{
+	border-top-color:#eeeeee;
+	border-left-color:#eeeeee;
+	border-bottom-color: #d5d5d5;
+	border-right-color: #d5d5d5;
+}
+#main-inner-site,
+.wip-product-single-page .product_meta{
+	background-color : #fafafa;
+}
+#main-inner-site table td,
+.col-1,
+.col-2{
+	background-color: #fbfbfb;
+}
+.dividers a,
+.woocommerce-account form h3{
+	background-color: #fafafa;
+}
+.sidebarbox h3.sidebar-title{
+	background: #4f4f4f  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAoCAIAAAHOOJfMAAAAWElEQVQokbWQXQrAMAiDv8rOZ+5/Gd1Ly9a1DMZaIagJxB8kWUTcwYQr7g4cETGmzASQZJn5CqBaAUaLZrGqKpIuwrpxPbmj68m6y+TW5xfW6H/9dvt/1U/1ppCTgA4D6gAAAABJRU5ErkJggg==") scroll left top repeat-x;
+	color: #ebebeb;
+}
+#single-page-title{
+	background-color : #f2f2f2;
+	
+	
+	
+	
+}
+#single-page-title h1{
+	color: #4f4f4f;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.tagcloud a{
+	background: #4d4d4d;
+	border-color: #3e3e3e;
+	color : #fafafa;
+}
+table#wp-calendar caption,
+table#wp-calendar tfoot tr td{
+	border-color: #d5d5d5;
+	background-color: #fcfcfc;
+}
+table#wp-calendar thead th{
+	border-color: #d5d5d5;
+}
+table#wp-calendar tbody td{
+	border-color: #eeeeee;
+	background-color: #fcfcfc;
+}
+.selectBox-dropdown,
+.selectBox-dropdown-menu,
+.selectBox-inline{
+	background-color: #fbfbfb;
+	border: solid 1px #d5d5d5;
+	color : #858585;
+}
+.selectBox-dropdown .selectBox-arrow{
+	border-left: solid 1px #d5d5d5;
+}
+.selectBox-dropdown:focus,
+.selectBox-dropdown:focus .selectBox-arrow{
+	border-color: #d5d5d5;
+}
+div.product .woocommerce_tabs ul.tabs li a,
+.wip_tab ul.tab-lists li a{
+	color : #4d4d4d;
+}
+div.product .woocommerce_tabs ul.tabs li.active,
+div.product .woocommerce_tabs .panel,
+.wip_tab ul.tab-lists li.active,
+.wip_tab .panes,
+div.related.products h2 span,
+div.upsells.products h2 span,
+#blog-related h2 span,
+#portfolio-related h2 span{
+	background-color : #fafafa;
+}
+div.product .woocommerce_tabs .panel table.shop_attributes tr,
+div.product table.group_table tr{
+	border-bottom: 1px solid #fafafa;
+}
+div.product div.quantity input[name="quantity"],
+div.product div.quantity input.input-text.qty,
+input.input-text.qty{
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+.jspTrack{
+	background: #eeeeee;
+}
+.jspDrag{
+	background: #a3a3a3;
+}
+#reviews #comments ol.commentlist li img,
+#reviews #comments ol.commentlist li .comment-text,
+ol.commentlist li .comment_entries,
+.single-blog-entry #respond,
+#review_form,
+.toggle_container,
+.woo_product_content form.cart,
+.woo_product_content div[itemprop="description"],
+#product_gallery_and_summary .images a[itemprop="image"],
+.product_lists_thumbnail,
+.sidebarbox{
+	background-color: #fbfbfb;
+	border-top-color:#eeeeee;
+	border-left-color:#eeeeee;
+	border-bottom-color: #d5d5d5;
+	border-right-color: #d5d5d5;
+}
+.sidebarbox a{
+	color: #6b6b6b;
+}
+.sidebarbox a:hover{
+	color: #2999e9;
+}
+.wp-caption,
+.gallery-icon a img{
+	background-color: #fbfbfb!important;
+	border-top-color:#eeeeee!important;
+	border-left-color:#eeeeee!important;
+	border-bottom-color: #d5d5d5!important;
+	border-right-color: #d5d5d5!important;	
+}
+div.variations_button div.quantity{
+	border-color: #fbfbfb;
+}
+.comment_entries .commentmetadata{
+	border-bottom-color: #d5d5d5;
+}
+#woo_checkout_tab_process{
+	background-color: #fbfbfb;
+	border-color: #d5d5d5;
+}
+#woo_checkout_tab_process ul li a{
+	color: #a3a3a3;
+}
+#woo_checkout_tab_process ul li.viewed a,
+#woo_checkout_tab_process ul li a:hover{
+	color : #4d4d4d;
+}
+.addresses header.title,
+.addresses .col-1 address,
+.addresses .col-2 address,
+.woocommerce-account form,
+.woocommerce-checkout form.login,
+.woocommerce-checkout form.wip-login,
+table.shop_table thead,
+table.shop_table tbody,
+.cart_totals table,
+#customer_details .col-1,
+#customer_details .col-2{
+	border-top-color:#eeeeee;
+	border-left-color:#eeeeee;
+	border-bottom-color: #d5d5d5;
+	border-right-color: #d5d5d5;
+}
+#customer_details .col-1 h3:first-child,
+#customer_details .col-2 h3,
+.single-blog-entry #respond h3#reply-title,
+#review_form #respond h3#reply-title,
+.toggle_container h3.toggle_title{
+	border-bottom-color: #d5d5d5;
+}
+.toggle_container h3.toggle_title{
+	background-color : #fafafa;
+}
+table.shop_table thead th{
+	border-left-color:#d5d5d5;
+}
+table.shop_table tbody td{
+	border-left-color:#eeeeee;
+	border-top-color:#eeeeee;
+}
+.cart_totals,
+.shipping_calculator .shipping-calculator-form{
+	border: 1px solid #eeeeee;
+}
+.cart_totals h2,
+form.shipping_calculator h2{
+	background-color : #fafafa;
+}
+.cart_totals table th{
+	border-top-color: #d5d5d5;
+}
+.cart_totals table td,
+ul.products li h3.product-title-on-lists{
+	border-top-color: #eeeeee;
+}

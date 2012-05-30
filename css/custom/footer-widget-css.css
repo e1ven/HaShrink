@@ -1,0 +1,73 @@
+/** ===== footer widget skin ===== */ 
+#footer{
+	color: #bababa;
+	background-color : #636363;
+	
+	
+	
+	
+}
+#footer table#wp-calendar caption,
+#footer table#wp-calendar tfoot tr td{
+	border-color: #545454;
+	background-color: #999999;
+}
+#footer table#wp-calendar thead th{
+	border-color: #545454;
+}
+#footer table#wp-calendar tbody td{
+	border-color: #5e5e5e;
+	background-color: #999999;
+}
+#footer .selectBox-dropdown,
+#footer .selectBox-dropdown-menu,
+#footer .selectBox-inline{
+	background-color: #999999;
+	border: solid 1px #545454;
+}
+#footer .selectBox-dropdown .selectBox-arrow{
+	border-left: solid 1px #545454;
+}
+#footer .selectBox-dropdown:focus,
+#footer .selectBox-dropdown:focus .selectBox-arrow {
+	border-color: #404040;
+}
+#footer input[type=text], 
+#footer input[type=password], 
+#footer input[type=file], 
+#footer textarea, 
+#footer select{
+	background-color: #8a8a8a;
+	color: #bababa;
+}
+#footer input[type=text], 
+#footer input[type=password], 
+#footer input[type=file], 
+#footer select, 
+#footer textarea{
+	border-top-color:#5e5e5e;
+	border-left-color:#5e5e5e;
+	border-bottom-color: #545454;
+	border-right-color: #545454;
+}
+.footer-widget h3.footer-widget-title{
+	color: #e0e0e0;
+	border-color: #828282;
+}
+.footer-widget h1,
+.footer-widget h2,
+.footer-widget h3,
+.footer-widget h4,
+.footer-widget h5,
+.footer-widget h6{
+	color: #c2c2c2;
+}
+.footer-widget a{
+	color: #c2c2c2;
+}
+.footer-widget a:hover{
+	color: #ededed;
+}
+.footer-widget ul li{
+	background: url(../../images/arrow-lists-white.png) scroll 0px 9px no-repeat;
+}

@@ -1,0 +1,141 @@
+/*
+Theme Name: The_Builder
+Description: Used to style the TinyMCE editor.
+*/
+* {
+	color: #444;
+	font-family: Georgia, "Bitstream Charter", serif;
+	line-height: 1.5;
+}
+.coll,
+.float_left{border: 1px dotted #c1c1c1;}
+.coll > *,
+.float_left>*{
+	padding: 15px ;
+}
+.float_left{float: left;}
+.float_right{float: right;}
+.no_margin_right{
+	margin: 0px 0px 0px 0px!important;
+}
+img.mceWPclear{
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 1px;
+	margin: 0px 0px 10px;
+	padding: 0;
+}
+.col_two{
+	padding: 0px 0px 0px;
+	margin: 0 4% 0 0;
+	width: 45%;
+}
+.col_two.no_margin_right{
+	margin: 0px 0px 0px 0px!important;
+}
+
+.col_four{
+	padding: 0px 0px 0px;
+	margin: 0 4% 0 0;
+	width: 21%;
+}
+.col_four.no_margin_right{
+	margin: 0px 0px 0px 0px!important;
+}
+
+.col_three{
+	padding: 0px 0px 0px;
+	margin: 0 5% 0 0;
+	width: 29%;
+}
+.col_three.no_margin_right{
+	margin: 0px 0px 0px 0px!important;
+}
+.col_twothree{
+	width: 64%; 
+	margin: 0 5% 0 0; 
+	padding: 0px 0px 0px; 
+}
+.col_threefourth{
+	width: 73%; 
+	margin: 0 4% 0 0; 
+	padding: 0px 0px 0px;
+}
+.col_twofourth{
+	width: 47%; 
+	margin: 0 4% 0 0; 
+	padding: 0px 0px 0px;
+	}
+
+/** divider & dropcap & pullquotes */
+img.divider{
+	margin: 10px 0px 10px; 
+	height: 2px;
+	width: 100%;
+	display: block; 
+	border-bottom: 1px solid #e1e1e1;
+}
+.dropcap{
+	float: left; 
+	display: inline-block; 
+	font-size: 38px; 
+	font-weight: bold; 
+	line-height: 100%; 
+	margin: 2px 12px 0px 0px;
+	position: relative; 
+	color: #111;
+}
+.quote_left{
+	float: left; 
+	display: inline-block; 
+	width: 40%; 
+	margin: 10px 20px 10px 0px; 
+	padding: 6px 15px; 
+	min-height: 40px; 
+	font-size: 12px;
+	font-style: italic; 
+	font-family:Georgia, serif; 
+	background: url(images/quote.png) scroll 0 0 no-repeat; 
+	color: #666;
+	}
+.quote_right{
+	float: right; 
+	display: inline-block; 
+	width: 40%; 
+	margin: 10px 0px 10px 20px; 
+	padding: 6px 15px; 
+	min-height: 40px; 
+	font-size: 12px; 
+	font-style: italic; 
+	font-family:Georgia, serif; 
+	background: url(images/quote.png) scroll 0 0 no-repeat; color: #666;
+}
+
+a.wip_button{
+	display: inline-block;
+	margin: 0px 5px 10px 0px;
+	font-family: arial, 'sans-serif';
+	background-image: url(images/button-fade.png); 
+	background-position: 0% 100%;
+	background-repeat: repeat-x;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+a.wip_button.small{
+	padding: 3px 10px 3px; /*small padding*/
+	line-height: 15px;
+	font-size: 11px;
+}
+a.wip_button.medium{
+	padding: 4px 15px 4px; /*medium padding*/
+	line-height: 20px;
+	font-size: 12px;
+}
+a.wip_button.big{
+	padding: 5px 20px 6px; /*medium padding*/
+	line-height: 26px;
+	font-size: 13px;
+	font-weight: bold;
+}

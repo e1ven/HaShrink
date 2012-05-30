@@ -1,0 +1,1008 @@
+/*
+Theme Name: The_Builder
+Theme URI: http://themeforest.net/user/webinpixels/portfolio
+Description: Designed by <a href="http://themeforest.net/user/webinpixels">WebInPixels</a>.
+Version: 1.0
+Author: WebInPixels
+License: GNU General Public License
+License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
+Author URI: http://themeforest.net/user/WebInPixels
+Tags: white
+*/
+
+
+@charset "UTF-8";
+
+/** RESET 
+--------------------------------------------------------------------*/
+a, abbr, acronym,address,applet,article,aside,audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong {
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+li {
+/*
+  For IE6 + IE7.
+*/
+  display: list-item;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+/*
+  For IE9.
+*/
+  overflow: hidden;
+}
+
+
+/** GENERAL TYPO 
+--------------------------------------------------------------------*/
+
+body {
+	margin: 0px; 
+	padding: 0px; 
+	position: relative;
+	font-size: 12px;
+	line-height: 21px;
+}
+
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+a, a img{text-decoration: none;}
+
+
+/** Spacing
+--------------------------------------------------------------------*/
+
+ul,li{
+	list-style:none outside;
+	margin-left:20px;
+	list-style-type:disc;
+	}
+	
+ol, ol li{list-style:decimal outside;}
+
+ol, dd{margin-left:20px;}
+
+ul ul, ol ul, ul ol, ol ol{
+	margin-bottom:0;
+	margin-top:0;
+	}
+
+p,
+dl,
+hr,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure,
+form {
+  margin-bottom: 20px;
+}
+
+/** clear */
+.clear{display: inline-block;}
+.clear:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+/* Hide from IE Mac \*/
+.clear {display:block;}
+/* End hide from IE Mac */
+
+
+/* `HEADINGS
+----------------------------------------------------------------------------------------------------*/
+/** in general size, you can change the size start from here */
+h1,h2,h3,h4,h5,h6{
+	line-height: 140%;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.wrap_960>h1,
+.wrap_960>h2,
+.wrap_960>h3,
+.wrap_960>h4,
+.wrap_960>h5,
+.wrap_960>h6{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+/* `WRAPERS
+----------------------------------------------------------------------------------------------------*/
+.float_left{
+	float: left;
+}
+
+.float_right{
+	float: right;
+}
+
+.plus_padding{
+	padding-bottom: 30px!important;
+}
+
+.wrap_990{
+	margin: 0;
+	padding: 0;
+	}
+	
+.wraper_990{
+	margin: 0px auto;
+	padding: 0;
+	width: 990px;
+	}
+	
+.wrap_960{
+	margin: 0px auto;
+	padding: 0;
+	width: 960px;
+	}
+
+.wrap_940{
+	margin: 0px auto;
+	padding: 0;
+	width: 940px;
+	}
+	
+.wrap_930{
+	margin: 0px auto;
+	padding: 0;
+	width: 930px;
+	}
+
+.block_full{
+	margin: 0px 0px 20px;
+	padding: 0 10px 0px;
+}
+.area_with_sidebar .block_full{
+	padding: 0px 0px 0px 0px;
+}
+.area_with_sidebar{
+	width: 700px;
+	margin-bottom: 30px;
+	padding: 0px;
+}
+.area_with_sidebar.area_left{
+	float: left;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.area_with_sidebar.area_right{
+	float: right;
+	margin-right: 10px;
+	margin-left: 0;
+}
+.sidebar_block{
+	width: 220px;
+	margin-bottom: 30px;
+	padding: 0px;
+}
+.sidebar_block.area_left{
+	float: left;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.sidebar_block.area_right{
+	float: right;
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.page_content{
+	margin: 0px;
+	padding: 0px 0px 20px;
+}
+
+.block_full.for_tagline_button{
+	margin-bottom: 40px;
+}
+
+.col_wraper{
+	margin: 0px 0px 0px;
+	padding: 0px 0px 0px;
+}
+
+
+#site_bottom .col_wraper{
+	margin: 0px 0px 0px;
+	padding: 10px 0px 10px;
+}
+#site_bottom div{
+	margin-bottom: 0;
+}
+
+/* `DIVIDERS
+----------------------------------------------------------------------------------------------------*/
+.wrap_960>.dividers,
+.wrap_960>h3.section_title{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.divider_style_1{
+	margin: 5px 0px 20px;
+	padding: 0;
+	height: 3px;
+	background: url(images/divider-line-1.png) scroll left center repeat-x;
+	text-align: center;
+}
+
+.divider_style_2{
+	margin: 5px 0px 20px;
+	padding: 0;
+	height: 4px;
+	background: url(images/divider-line-2.png) scroll left center repeat-x;
+	text-align: center;
+}
+
+.page_content .dividers{
+	margin-bottom: 20px;
+}
+
+.dividers.with_title{
+	height: 26px;
+	margin-bottom: 20px;
+}
+
+.dividers .divider_title{
+	display: inline-block;
+	padding: 0px 15px;
+	height: 26px;
+	line-height: 26px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.divider_style_2 .divider_title,
+.divider_style_1 .divider_title{
+	margin-top: 0px;
+}
+
+
+.dividers a{
+	float: right;
+	display: inline-block;
+	line-height: 12px;
+	font-size: 10px;
+	padding: 0px 0px 0px 5px;
+	margin-top: -6px;
+}
+.dividers.with_title a{
+	margin-top: 5px;
+}
+
+
+
+
+/* `COLUMNS
+----------------------------------------------------------------------------------------------------*/
+.col_five,
+.fullwidth-auto-column-5 ul.products li.product{
+	width: 172px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.fullwidth-auto-column-56 ul.products li.product{
+	width: 130px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+.fullwidth-auto-column-56 ul.products li.product.first{margin-left:10px;}
+.fullwidth-auto-column-56 ul.products li.product.last{margin-right:10px;}
+
+.col_four,
+.fullwidth-auto-column-4 ul.products li.product{
+	width: 220px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+	
+.col_three,
+.fullwidth-auto-column-3 ul.products li.product{
+	width: 300px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.col_two,
+.fullwidth-auto-column-2 ul.products li.product{
+	width: 460px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.col_twothree{
+	width: 620px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.col_twofourth{
+	width: 460px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.col_threefourth{
+	width: 700px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.area_with_sidebar .col_five,
+.usesidebar-auto-column-5  ul.products li.product{
+	width: 124px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.area_with_sidebar .col_four,
+.usesidebar-auto-column-4  ul.products li.product{
+	width: 160px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.area_with_sidebar .col_three,
+.col_threefourth .col_three,
+.usesidebar-auto-column-3  ul.products li.product{
+	width: 220px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.area_with_sidebar .col_two,
+.usesidebar-auto-column-2  ul.products li.product{
+	width: 340px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.area_with_sidebar .col_twothree{
+	width: 460px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.area_with_sidebar .col_twofourth{
+	width: 340px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+.area_with_sidebar .col_threefourth{
+	width: 520px;
+	padding: 0;
+	margin: 0px 10px 20px;
+}
+
+
+/** fix columns width inside the tab shortcode */
+.pane>.col_four,
+.panel>.col_four{
+	float: left;
+	padding: 0px 0px 20px;
+	margin: 0 4% 0 0;
+	width: 22%;
+}
+.pane>.col_three,
+.panel>.col_three{
+	float: left;
+	padding: 0px 0px 20px;
+	margin: 0 5% 0 0;
+	width: 30%;
+}
+.pane>.col_two,
+.panel>.col_two{
+	float: left;
+	padding: 0px 0px 20px;
+	margin: 0 0 0 0;
+	width: 48%;
+}
+.pane>.col_twothree,
+.panel>.col_twothree{
+	float: left; 
+	width: 65%; 
+	margin: 0 5% 0 0; 
+	padding: 0px 0px 20px; 
+}
+.pane>.col_threefourth,
+.panel>.col_threefourth{
+	float: left; 
+	width: 74%; 
+	margin: 0 4% 0 0; 
+	padding: 0px 0px 20px;
+}
+.pane>.col_twofourth,
+.panel>.col_twofourth{
+	float: left; 
+	width: 48%; 
+	margin: 0 4% 0 0; 
+	padding: 0px 0px 20px;
+	}
+
+
+
+.first{
+	clear: both;
+}
+.area_with_sidebar .first,
+.col_threefourth .first,
+.usesidebar-auto-column-2 .first,
+.usesidebar-auto-column-3 .first,
+.usesidebar-auto-column-4 .first,
+.usesidebar-auto-column-5 .first,
+.page_content .first{
+	margin-left: 0px!important;
+}
+
+.area_with_sidebar .last,
+.col_threefourth .last,
+.usesidebar-auto-column-2 .last,
+.usesidebar-auto-column-3 .last,
+.usesidebar-auto-column-4 .last,
+.usesidebar-auto-column-5 .last,
+.page_content .last{
+	margin-right: 0px!important;
+}
+
+.no_margin_left{
+	margin-left: 0px!important;
+}
+
+.no_margin_right{
+	margin-right: 0px!important;
+}
+
+.no_margin,
+.col_wraper.no_margin{
+	margin-bottom: 0px!important;
+}
+
+.float_center{
+	display: block;
+	margin: 0px 0px 20px;
+	padding: 0;
+	text-align: center;
+}
+
+.usesidebar-auto-column-2,
+.usesidebar-auto-column-3,
+.usesidebar-auto-column-4,
+.usesidebar-auto-column-5,
+.fullwidth-auto-column-2,
+.fullwidth-auto-column-3,
+.fullwidth-auto-column-4,
+.fullwidth-auto-column-5{
+	padding: 0;
+	margin: 0px 0px 10px;
+}
+
+ul.products li.product{
+	float: left;
+}
+
+/** `WP CLASSES
+----------------------------------------------------------------------------------------------------*/
+.alignright,img.alignright,a img.alignright {
+	float:right; 
+	margin:8px 0px 8px 20px;
+	}
+.alignleft,
+img.alignleft,
+a img.alignleft {
+	float:left; 
+	margin:8px 20px 8px 0;
+}
+.aligncenter,
+img.aligncenter,
+a img.aligncenter {
+	display: block; 
+	margin: 0px auto 20px;
+	}
+.wp-caption {
+	display: inline-block;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom:20px;
+	padding: 5px 0px 5px;
+	text-align: center;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+.wp-caption img,
+.wp-caption a,
+.wp-caption a img{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	line-height: 18px;
+	padding: 5px 0px 0px;
+	margin: 0;
+	text-align: center;
+	}
+.center{
+	text-align:center;
+	}
+.gallery-caption{
+	font-style: italic; 
+	font-family: Georgia, serif;
+	}
+.gallery-icon{
+	background-image: url(images/lookings.png)!important;
+	background-position: center -1000px;
+	background-repeat: no-repeat;
+	}
+.gallery-icon a img{
+	border-width: 1px!important;
+	border-style: solid; 
+	padding: 5px; 
+	display: block; 
+	margin: 0px auto; 
+	text-align: center;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+.sticky{}
+.attachment{
+}
+.nav-previous a,
+.nav-next a{
+	display: inline-block; 
+	padding: 6px 8px; 
+	line-height: 100%;
+	margin: 0; 
+	background-color: #666;
+	border: 1px solid #444;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-box-shadow: inset 0px 0px 1px rgba( 255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: inset 0px 0px 1px rgba( 255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0px 0px 1px rgba( 255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.05);
+	color: #efefef;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: none;
+}
+.nav-previous a:hover,
+.nav-next a:hover{background-color: #777; color: #dadada;}
+.nav-previous a:active,
+.nav-next a:focus{
+	background: #e1e1e1;
+	border: 1px solid #f4f4f4;
+	position: relative;
+	top: 1px;
+	-box-shadow: inset 0px 1px 3px rgba( 0, 0, 0, 0.3), 0px 1px 3px rgba( 0, 0, 0, 0.1); 
+	-webkit-box-shadow: inset 0px 1px 3px rgba( 0, 0, 0, 0.3), 0px 1px 3px rgba( 0, 0, 0, 0.1); 
+	-moz-box-shadow: inset 0px 1px 3px rgba( 0, 0, 0, 0.3), 0px 1px 3px rgba( 0, 0, 0, 0.1);
+	color: #bfbfbf;
+	text-shadow: 0px 0px 1px rgba( 255, 255, 255, 0.5);
+}
+.navigation{
+	margin: 0px 0px 20px;
+	padding: 0px;
+	height: 30px;
+}
+.nav-previous{float: left; margin: 0;}
+.nav-next{float: right; margin: 0;}
+.bypostauthor{}
+	
+	
+	
+	
+	
+
+	
+/** `MISC
+----------------------------------------------------------------------------------------------------*/
+.init_scroll{
+	position: relative;
+	margin: 0 0 0;
+	padding: 0;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.dropcap{
+	float: left; 
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	font-size: 38px;
+	font-weight: bold;
+	line-height: 100%; 
+	margin: 0px 12px 0px 0px;
+	text-shadow: 0px 1px 3px rgba( 0, 0, 0, 0.12);
+}
+
+
+.before_quote,
+.after_quote{
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	filter: alpha(opacity=25);
+	-moz-opacity:0.25;
+	-khtml-opacity: 0.25;
+	opacity: 0.25;
+}
+.before_quote{
+	float: left;
+	margin-right: 5px;
+}
+.after_quote{
+	float: right;
+	margin-left: 5px;
+}
+.testi_writer{
+	display: block;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	font-family: Monaco, Consolas, monospace;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.text_align_left{
+	text-align: left;
+}
+.text_align_center{
+	text-align: center;
+}
+.text_align_right{
+	text-align: right;
+}
+
+
+/* `SCROLLER (scrollpane css)
+----------------------------------------------------------------------------------------------------*/
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+.jspPane
+{
+	position: absolute;
+}
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+}
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+}
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+.jspCap
+{
+	display: none;
+}
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+.jspTrack
+{
+	/*background: #dde;*/
+	position: relative;
+}
+.jspDrag
+{
+	/*background: #bbd;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.jspHorizontalBar .jspTrack{
+	height: 100%;
+	margin-left: 0px;
+}
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 6px;
+	top: -2px;
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+}
+.jspArrow
+{
+	background: none;
+	text-indent: -20000px;
+	display: block;
+	cursor: default;
+}
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: none;
+}
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+.jspHorizontalBar .jspArrow
+{
+	width: 15px;
+	float: left;
+	height: 100%;
+}
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+.jspCorner
+{
+	float: left;
+	height: 100%;
+}
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+
+/** jquery select box */
+
+/* Dropdown control */
+.selectBox-dropdown {
+	min-width: 150px;
+	position: relative;
+	text-decoration: none;
+	text-align: left;
+	outline: none;
+	background-image: url(images/product-price-overlay.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: default;
+}
+.selectBox-dropdown.selectBox-menuShowing {
+	-moz-border-radius-bottomleft: 0;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.selectBox-dropdown .selectBox-label {
+	padding: 2px 8px;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.selectBox-dropdown .selectBox-arrow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 23px;
+	height: 100%;
+	background: url(images/jquery.selectBox-arrow.gif) 50% center no-repeat;
+}
+
+
+/* Dropdown menu */
+.selectBox-dropdown-menu {
+	position: absolute;
+	z-index: 99999;
+	max-height: 200px;
+	min-height: 1em;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+	overflow: auto;
+}
+
+
+/* Inline control */
+.selectBox-inline {
+	min-width: 150px;
+	outline: none;
+	display: inline-block;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	overflow: auto;
+}
+
+/* Options */
+.selectBox-options,
+.selectBox-options LI,
+.selectBox-options LI A {
+	list-style: none;
+	display: block;
+	cursor: default;
+	padding: 0;
+	margin: 0;
+}
+
+.selectBox-options LI A {
+	line-height: 1.5;
+	padding: 0 .5em;
+	white-space: nowrap;
+	overflow: hidden;
+	background: 6px center no-repeat;
+}
+.selectBox-options LI.selectBox-disabled A {
+	background-color: transparent;
+}
+.selectBox-options .selectBox-optgroup {
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 0 .3em;
+	white-space: nowrap;
+}
+
+
+/* Disabled state */
+.selectBox-dropdown.selectBox-disabled .selectBox-arrow {
+	opacity: .5;
+	filter: alpha(opacity=50);
+	border-color: #666;
+}
+.selectBox-inline.selectBox-disabled .selectBox-options A {
+	background-color: transparent !important;
+}

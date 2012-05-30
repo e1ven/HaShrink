@@ -1,0 +1,14 @@
+ul.products .product_lists_thumbnail a.product_lists_thumbnail_wrap{
+	overflow: visible!important;
+}
+.product_lists_thumbnail span.onsale{
+	padding: 0!important;
+	font-size: 0.00001!important;
+	text-indent: -9999!important;
+	color: transparent!important;
+	width: 40px!important;
+	height: 40px!important;
+	top: -6px!important;
+	right: -6px!important;
+	background: url(images/ie-sale.png) scroll 0 0 no-repeat!important;
+}

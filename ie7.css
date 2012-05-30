@@ -1,0 +1,84 @@
+
+.clear{
+	display: inline-block; 
+	height: 1px;
+	clear:both;
+	width: 100%;
+	margin: 0; 
+	padding: 0;
+}
+#top-inner{
+	display: inline-block;
+	height: 1%;
+}
+#top-inner .clear{display: none;}
+#top-utilitize{
+	display: inline-block;
+	width: auto;
+}
+#search-form-top{float: left;}
+.wip_woo_cart_drop{top: 50px;}
+input[type="submit"]{
+	padding-left: 1px;
+	padding-right: 1px;
+}
+button[type="submit"]{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+
+span.onsale{
+	padding: 0!important;
+	font-size: 0.00001!important;
+	text-indent: -9999!important;
+	color: transparent!important;
+	width: 40px;
+	height: 40px;
+	background: url(images/ie-sale.png) scroll 0 0 no-repeat!important;
+}
+
+ul.cart_list li,ul.product_list_widget li{
+	display: inline-block;
+	height: 1%;
+}
+
+
+div, li{
+	display: inline-block;
+}
+div.product table.variations tr td:first-child label{
+	display: inline-block;
+}
+.page_content,
+div.product .woocommerce_tabs ul.tabs,
+div.product form.variations_form{
+	display: inline-block;
+	height: 1%;
+}
+div.product .woocommerce_tabs ul.tabs li{
+	float: left;
+}
+
+
+table.shop_table thead{
+	display: inline-block;
+}
+table.cart td.actions .coupon label{
+	vertical-align: top;
+	line-height: 34px;
+	display: inline-block;
+}
+.shipping_calculator .shipping-calculator-form{
+	display: inline-block;
+	height: 1%;
+}
+.shipping_calculator .shipping-calculator-form p{
+	margin-bottom: 10px;
+}
+.shipping-calculator-form .selectBox-dropdown{
+	margin-top: 2px;
+}
+

@@ -1,0 +1,15 @@
+/** ===== font style ===== */ 
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body,
+input,textarea,select,button,
+ul.news_widget_style li h3{
+	font-family: 'Droid Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6, .amount{
+	font-family: 'Droid Serif', serif;
+}
+ul#main-nav{
+	font-family : Arial, tahoma, sans-serif;
+}

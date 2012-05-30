@@ -1,0 +1,37 @@
+/** ===== products area skin ===== */ 
+span.onsale{
+	background: #2999e9 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAoCAIAAAHOOJfMAAAArElEQVQokZWP4Q7CIAyEj4ZHNcbwfureSuZMHB20/hhuwBYX/931vhYOrvPUB6EXKw2s1AfBzsycrg8Atg8KwA4sAOyzdHCdJ05K76jECcRJKaRZj/Gr1ZxvHgAAy0mzCovihKzGuJduuTVdNozrPAAbBQCsqBZuEp2HqJDsSjJVe7tIHrY3C8Rc7rlv/uWcrr62sJOgyWs+Nnnrj/jte0f8f/fafts+v/km/wAhc7zMga1DcgAAAABJRU5ErkJggg==") scroll left bottom repeat-x;
+	color: #fafafa;
+}
+.product_list_price{
+	background-color: #4f4f4f;
+	color: #f7f7f7;
+	text-shadow: none;
+}
+span.product_list_button a.button:hover{
+	background-color: #616161;
+}
+.product.type-product.status-publish.hentry .summary button.button.alt{
+	background: #2999e9 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAoCAIAAAHOOJfMAAAAlklEQVQokZWPUQ6EIAxEnw3XWj2sHI8bIJ39gBhAs65f7czrtClbTJZddhTscFl2ceMtnz0BIRcB4XABITu1CGCLyVxYkcwdc2EuNa/2RSzrngAgFNE6l86Ov6j7lZ6JZYsJCJUE9eEg1LNhpKm6OyANqmdzXNd4Vcsa27/0dqeZ9Dhww0ftj/te3nuYn+4Zv/nrfyb+BVNJlq5ogBBlAAAAAElFTkSuQmCC") scroll left bottom repeat-x;
+	color: #fcfcfc;
+	border: 1px solid #217aba;
+	-box-shadow: inset 0px 1px 0px #4eabed, 0 1px 3px rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: inset 0px 1px 0px #4eabed, 0 1px 3px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: inset 0px 1px 0px #4eabed, 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.product.type-product.status-publish.hentry .summary button.button.alt:hover{
+	background: #2999e9 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAoCAIAAAHOOJfMAAAAjklEQVQokZWPQQ7EIAwDxyY8pt0X0x/yiz2AKqDVdntK7IkTha1UZ8uRcFjOFjeePkcFIicBERYQ2bQigK1UWzhJtrGFLXWv9UloPyoARBK9s3R2/EXtKz0T2koFopHQGA6hkU0jXbXdgTSpka1xXeNNaS/9X0Z70Cx6Hrjhs/bjvpf3HuaXe+Y3f/3Pwr+RGA2Kh6usvwAAAABJRU5ErkJggg==") scroll left top repeat-x;
+	color: #fcfcfc!important;
+}
+div.product .single_variation_wrap .single_variation{
+	border-color: #cfcfcf;
+	background-color: #f3f3f3;
+	background-image : url(../../images/price-dark.png);
+}
+div.product .single_variation_wrap .single_variation span.price{
+	color: #2999e9;
+}
+div.product .single_variation_wrap  p.stock,
+.single_variation span.price del .amount{
+	color: #3fa4ec;
+}

@@ -1,0 +1,22 @@
+/** ===== slider area skin ===== */ 
+#slider_wraper{
+	background-color : #f2f2f2;
+	
+	
+	
+	
+}
+.nivo-controlNav a{
+	background: #bfbfbf  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAKCAIAAAGEXDPxAAAAPUlEQVQImZ2IIQ4AMQzD3Gn/f19wSUlw8YEVHBlZpMhOsL0kMQxJALbXNDITALbtY3Fsd/cNUVX8Mvfz/gCeazeQRItzTQAAAABJRU5ErkJggg==") scroll left bottom repeat-x;
+	border: 1px solid #858585;
+	-box-shadow: inset 0px 1px 0px #f4f4f4, 0 1px 3px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0px 1px 0px #f4f4f4, 0 1px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0px 1px 0px #f4f4f4, 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.nivo-controlNav a.active{
+	background: #2999e9  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAKCAIAAAGEXDPxAAAAX0lEQVQImX2JvQmAMBhEXyRTOZuzCC7gBjE4gqVNfmqbIIh8kICFKWLjNe/eHTYK/XRQqYb1BLBROhOkW4KocbsAQJsgb1M2CqB9yoB2qTTmUwHUvN80qXPr+ePu/38AYwYzS6diOSwAAAAASUVORK5CYII=") scroll left bottom repeat-x;
+	border: 1px solid #858585;
+	-box-shadow: inset 0px 1px 0px #d9edfb, 0 1px 3px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0px 1px 0px #d9edfb, 0 1px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0px 1px 0px #d9edfb, 0 1px 3px rgba(0, 0, 0, 0.2);
+}

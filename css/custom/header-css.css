@@ -1,0 +1,20 @@
+/** ===== header skin ===== */ 
+#top{
+	background-color : #fafafa;
+	
+	
+	
+	
+}
+#top-utilitize a{
+	color : #636363;
+}
+#top-utilitize a:hover{
+	color : #8c8c8c;
+}
+#search-form-top input[type="text"]{
+	color : #636363;
+} 
+#main-site{
+	border-top: 2px solid #4f4f4f;
+}
